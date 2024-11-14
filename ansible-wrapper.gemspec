@@ -32,8 +32,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'json'
 
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rake', '~> 13.2'
+  spec.add_development_dependency 'rspec', '~> 3.13'
   spec.add_development_dependency 'coveralls'
-  spec.add_development_dependency 'json', '~> 1.8.4'
+  spec.add_development_dependency 'json', '~> 2.8'
 end
